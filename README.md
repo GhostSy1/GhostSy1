@@ -1,39 +1,57 @@
-### Hello, I am Abdulaziz (Ghost-SY1)
+# Abdulaziz — Ghost-SY1
 
-I work as an IT Manager, Penetration Tester, and Network Administrator based in Aleppo, Syria. My daily work involves network design and administration (Cisco, MikroTik), server hardening, and authorized security assessments across various environments.
+I am Abdulaziz, an IT manager and security practitioner based in Aleppo, Syria. My work combines infrastructure operations, network administration, endpoint and server hardening, and authorized security assessment. I work with Linux and Windows environments and administer Cisco, MikroTik, Active Directory, cloud, container, and application stacks.
 
-I build command-line tools in Python and C++ to assist with structured asset inventory, network reconnaissance, and configuration review.
+This profile contains independent tools for security review, evidence collection, configuration analysis, and defensive engineering. Each repository is maintained as a separate project so that its input boundary, output contract, and limitations can be reviewed independently.
 
----
+## Focus areas
 
-### Security Tools & Repositories
+| Area | Work represented in this portfolio |
+|---|---|
+| Infrastructure | Endpoint posture, network services, DNS, TLS/PKI, cloud controls, and identity permissions |
+| Application security | API review, web assessment support, email security, dependency analysis, and secrets hygiene |
+| Platform security | Kubernetes, containers, Active Directory Certificate Services, and CI/CD controls |
+| Security operations | SIEM validation, CloudTrail analysis, evidence integrity, malware triage, and audit reporting |
+| Engineering | Python, Bash, C/C++, C#, JavaScript, PHP, SQL, structured reports, and GitHub Actions |
 
-Below is the list of repositories available in this account for asset analysis, network auditing, and configuration review:
+## Selected repositories
 
-- **GHOST-IP-Intel**: Authorized IPv4 reconnaissance and port/banner inspection.
-- **GHOST-WebScanner**: Web application endpoint discovery and signature matching.
-- **GHOST-NetHunter**: Network service enumeration and infrastructure profiling.
-- **GHOST-OSINT-God**: Public domain intelligence and DNS enumeration.
-- **GHOST-MalwareAnalyzer**: Static PE binary analysis and structural hashing.
-- **GHOST-RedOps**: Authorized asset assessment and audit tooling.
-- **GHOST-CloudAuditor**: Cloud infrastructure and IAM policy review.
-- **GHOST-ADValidator**: Active Directory trust and permission auditing.
-- **GHOST-AttackSim**: Telemetry validation against defined security controls.
-- **GHOST-KubernetesAuditor**: Cluster configuration and RBAC inspection.
-- **GHOST-TLSPKIAnalyzer**: TLS handshake and certificate chain inspection.
-- **GHOST-SecretsScanner**: Hardcoded secret and credential detection.
-- **GHOST-IAMAuditor**: Access control and privilege review.
-- **GHOST-ContainerAuditor**: Dockerfile and container posture review.
-- **GHOST-SIEMValidator**: Log pipeline and telemetry flow validation.
-- **GHOST-DNSAudit**: DNS record and zone review.
-- **GHOST-APIInspector**: API endpoint and authorization review.
-- **GHOST-EmailSecurity**: Mail server and authentication protocol review.
-- **GHOST-ADCSAuditor**: Active Directory Certificate Services audit.
-- **GHOST-CloudTrailAnalyzer**: Cloud audit log analysis.
-- **GHOST-SupplyChainAuditor**: Dependency and component review.
-- **GHOST-EndpointPosture**: Host-level configuration review.
+| Repository | Scope |
+|---|---|
+| [GHOST-Evidence-Fabric](https://github.com/GhostSy1/GHOST-Evidence-Fabric) | Evidence ingestion, integrity tracking, risk assessment, and audit reporting |
+| [GHOST-FirmwareAnalyzer](https://github.com/GhostSy1/GHOST-FirmwareAnalyzer) | Static firmware and extracted root filesystem analysis with provenance reports |
+| [GHOST-ContainerPipelineGuard](https://github.com/GhostSy1/GHOST-ContainerPipelineGuard) | Dockerfile and CI/CD configuration review |
+| [GHOST-K8sHardener](https://github.com/GhostSy1/GHOST-K8sHardener) | Kubernetes configuration, RBAC, and workload posture review |
+| [GHOST-APIInspector](https://github.com/GhostSy1/GHOST-APIInspector) | Authorized API request and authorization review |
+| [GHOST-WebScanner](https://github.com/GhostSy1/GHOST-WebScanner) | Web surface inventory and application security review support |
+| [GHOST-SupplyChainAuditor](https://github.com/GhostSy1/GHOST-SupplyChainAuditor) | Dependency and software supply-chain review |
+| [GHOST-SecretsScanner](https://github.com/GhostSy1/GHOST-SecretsScanner) | Detection and handling guidance for exposed secrets |
+| [GHOST-CloudTrailAnalyzer](https://github.com/GhostSy1/GHOST-CloudTrailAnalyzer) | AWS audit-log analysis |
+| [GHOST-CloudAuditor](https://github.com/GhostSy1/GHOST-CloudAuditor) | Cloud configuration and control review |
+| [GHOST-IAMAuditor](https://github.com/GhostSy1/GHOST-IAMAuditor) | IAM permissions and privilege review |
+| [GHOST-ADValidator](https://github.com/GhostSy1/GHOST-ADValidator) | Active Directory security configuration review |
+| [GHOST-ADCSAuditor](https://github.com/GhostSy1/GHOST-ADCSAuditor) | Active Directory Certificate Services audit support |
+| [GHOST-ContainerAuditor](https://github.com/GhostSy1/GHOST-ContainerAuditor) | Container posture and build configuration review |
+| [GHOST-EndpointPosture](https://github.com/GhostSy1/GHOST-EndpointPosture) | Endpoint configuration and hardening checks |
+| [GHOST-TLSPKIAnalyzer](https://github.com/GhostSy1/GHOST-TLSPKIAnalyzer) | TLS certificate and PKI inspection |
+| [GHOST-DNSAudit](https://github.com/GhostSy1/GHOST-DNSAudit) | DNS record and configuration review |
+| [GHOST-EmailSecurity](https://github.com/GhostSy1/GHOST-EmailSecurity) | Mail authentication and header analysis |
+| [GHOST-SIEMValidator](https://github.com/GhostSy1/GHOST-SIEMValidator) | Telemetry and log-pipeline validation |
+| [GHOST-KubernetesAuditor](https://github.com/GhostSy1/GHOST-KubernetesAuditor) | Kubernetes audit support and RBAC review |
+| [GHOST-Vault](https://github.com/GhostSy1/GHOST-Vault) | Local security material and evidence handling |
+| [GHOST-IP-Intel](https://github.com/GhostSy1/GHOST-IP-Intel) | Authorized IP asset and service inventory |
+| [GHOST-OSINT-God](https://github.com/GhostSy1/GHOST-OSINT-God) | Public-source intelligence collection within legal and provider limits |
+| [GHOST-MalwareAnalyzer](https://github.com/GhostSy1/GHOST-MalwareAnalyzer) | Static malware triage and structural analysis |
+| [GHOST-AttackSim](https://github.com/GhostSy1/GHOST-AttackSim) | Defensive telemetry and control validation |
+| [GHOST-RedOps](https://github.com/GhostSy1/GHOST-RedOps) | Authorized assessment utilities with a documented safety boundary |
+| [GHOST-NetHunter](https://github.com/GhostSy1/GHOST-NetHunter) | Network inventory and defensive assessment support |
 
----
-### Technical Stack
-- **Languages:** Python, Bash, C++, C, C#, JavaScript, PHP, SQL
-- **Infrastructure:** Cisco, MikroTik, Active Directory, Linux/Windows Server
+## Engineering principles
+
+I prefer tools that show their work. A report should identify its input, preserve useful provenance, distinguish an observation from an inference, and expose failures instead of manufacturing a result. Public releases should contain documentation, reproducible checks, a security policy, and no credentials or customer data.
+
+The projects are intended for authorized use only. They do not grant permission to test a system, bypass an access control, collect credentials, or access information that the operator is not entitled to access. Security findings require validation against the relevant environment and evidence.
+
+## Contact and collaboration
+
+For responsible disclosure, use the private security contact configured on the relevant GitHub repository. For technical collaboration, open an issue with a clear problem statement and a reproducible, non-sensitive example.
